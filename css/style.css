@@ -10,7 +10,13 @@
 .container {
 	border: solid 2px limegreen;
 	height: 85vh;
+	overflow: auto;
+}
 
+
+
+.nav-link {
+	color: limegreen;
 }
 
 
@@ -19,3 +25,22 @@
 	background-color: transparent;
 }
 
+/*form*/
+
+.form-control {
+	background-color: transparent;
+	border: solid 1px limegreen;
+	color: limegreen;
+}
+
+.form-control:focus {
+	background-color: transparent;
+	border: solid 1px limegreen;
+	color: limegreen;
+}
+
+#sendButton {
+	background-color: transparent;
+	border: solid 1px limegreen;
+	color: limegreen;
+}

@@ -19,8 +19,8 @@ $(document).ready(function(){
 		// setup handling of form errors
 		debug: true,
 		errorClass: "alert alert-danger",
-		// errorLabelContainer: "#output-area",
-		// errorElement: "div",
+		errorLabelContainer: "#output-area",
+		errorElement: "div",
 
 		// rules here define what is good or bad input
 		// each rule starts with the form input element's NAME attribute
