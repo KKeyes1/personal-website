@@ -1,0 +1,21 @@
+.console-color {
+	color: limegreen;
+}
+
+.jumbotron {
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	border: solid 2px limegreen;
+	height: 85vh;
+
+}
+
+
+.navbar {
+	margin: 0;
+	background-color: transparent;
+}
+

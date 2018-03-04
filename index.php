@@ -31,15 +31,27 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"></script>
 
-		<!--		<!--		Custom JS-->-->
+<!--		Font Awesome JS-->
+		<script
+			defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<!--		<!--		Custom JS-->
 		<script
 			src="js/rain.js"></script>
 	</head>
 	<body>
-		<div class="jumbotron">
+		<div class="jumbotron rounded-0 bg-dark">
 			<div class="container">
 
 			</div>
 		</div>
+
+
+<!--		Links/Navigation-->
+		<nav class="navbar fixed-bottom navbar-dark justify-content-center">
+			<a class="navbar-item console-color p-2" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
+			<a class="navbar-item console-color p-2" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
+			<a class="navbar-item console-color p-2" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
+			<a class="navbar-item console-color p-2" href="#"><i class="far fa-envelope fa-3x"></i></a>
+		</nav>
 	</body>
 </html>
