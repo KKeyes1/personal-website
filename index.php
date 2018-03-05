@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="refresh" content="5" >
+<!--		<meta http-equiv="refresh" content="5" >-->
 		<title>Who Is Ken</title>
 
 <!--		Bootstrap CSS-->
@@ -16,6 +16,9 @@
 		<link
 			rel="stylesheet"
 			href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="css/typeWriter.css">
 
 <!--		Bootstrap JS Dependencies-->
 		<script
@@ -54,9 +57,13 @@
 		<!--		<!--		Custom JS-->
 		<script
 			src="js/rain.js"></script>
+		<script
+			src="js/typeWriter.js"></script>
+		<script
+			src="js/about-me.js"></script>
 	</head>
 	<body>
-		<div class="jumbotron rounded-0 bg-dark">
+		<div class="jumbotron rounded-0">
 			<div class="container py-3">
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="nav-item">
@@ -65,14 +72,20 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#contact" role="tab" data-toggle="tab">Contact</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#proficiencies" role="tab" data-toggle="tab">Proficiencies</a>
+					</li>
 				</ul>
 
 
 				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane fade in active" id="main">
-
+					<div role="tabpanel" class="tab-pane active" id="main">
+						<div id="testDiv">
+							<section id="typeWriter"></section>
+							<input type="button" class="btn btn-lg border" id="generate" onclick="generate()" value="Learn More"></input>
+						</div>
 					</div>
-					<div role="tabpanel" class="tab-pane fade pt-3" id="contact">
+					<div role="tabpanel" class="tab-pane pt-3" id="contact">
 						<form class="form-horizontal" role="form" method="post" action="php/mailer.php" id="contactForm">
 							<div class="form-group">
 								<label for="name" class="col-sm-3 control-label console-color">
@@ -117,16 +130,25 @@
 						<div id="output-area"></div>
 						<div id="success-output-area"></div>
 					</div>
+					<div role="tabpanel" class="tab-pane" id="proficiencies">
+						</div>
+					</div>
 				</div>
 			</div>
+			<!--		Links/Navigation-->
+			<nav class="navbar fixed-bottom navbar-dark justify-content-center">
+				<a class="navbar-item console-color p-2" target="_blank" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
+				<a class="navbar-item console-color p-2" target="_blank" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
+				<a class="navbar-item console-color p-2" target="_blank" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
+			</nav>
 		</div>
 
+		<script type="text/javascript">
+			$(function() {
+				var typeWriter = new TypeWriter('#typeWriter');
 
-<!--		Links/Navigation-->
-		<nav class="navbar fixed-bottom navbar-dark justify-content-center">
-			<a class="navbar-item console-color p-2" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
-			<a class="navbar-item console-color p-2" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
-			<a class="navbar-item console-color p-2" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
-		</nav>
+				typeWriter.start();
+			});
+		</script>
 	</body>
 </html>

@@ -1,31 +1,75 @@
+body {
+	font-family: 'Open Sans', courier;
+	color: #33d011;
+}
+
 .console-color {
 	color: limegreen;
 }
 
 .jumbotron {
-	min-height: 100vh;
+	height: 100vh;
 	margin: 0;
+	background-color: #222;
 }
 
 .container {
 	border: solid 2px limegreen;
 	height: 85vh;
 	overflow: auto;
+	display: block;
 }
 
+#madLib span {
+	color: fuchsia;
+}
 
+.nav-tabs {
+	border-bottom: solid 1px limegreen;
+ }
 
 .nav-link {
 	color: limegreen;
 }
 
+.nav-link.active {
+	color: limegreen;
+	border-color: limegreen;
+}
+
+.nav-tabs .nav-link:hover {
+	color: fuchsia;
+	border-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+	color: limegreen;
+	background-color: transparent;
+	border-color: limegreen limegreen;
+}
 
 .navbar {
-	margin: 0;
 	background-color: transparent;
 }
 
+.navbar a:hover {
+	color: fuchsia;
+}
 /*form*/
+
+.alert {
+	background-color: transparent;
+	color: fuchsia;
+	border: none;
+	margin: 0;
+	padding: 1em;
+}
+
+.form-control.alert {
+	background-color: transparent;
+	border: solid 1px limegreen;
+	color: limegreen;
+}
 
 .form-control {
 	background-color: transparent;
