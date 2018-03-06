@@ -67,7 +67,7 @@
 	<body>
 		<div class="jumbotron rounded-0">
 			<div class="container py-3">
-				<nav class="navbar">
+				<nav class="navbar" id="consoleNav">
 					<ul class="nav nav-tabs" role="tablist">
 						<li class="nav-item">
 							<a class="nav-link active" href="#main" role="tab" data-toggle="tab">Main</a>
@@ -135,46 +135,57 @@
 					<div role="tabpanel" class="tab-pane" id="proficiencies">
 						<div class="row">
 							<div class="col">
+								<p>What I am good at:</p>
 								<i class="fab fa-css3-alt"></i>
 								<i class="fab fa-html5"></i>
 								<i class="fab fa-js"></i>
-								<i class="fab fa-angular"></i>
-								<i class="fab fa-git-square"></i>
-								<i class="fas fa-code-branch"></i>
 								<i class="fab fa-php"></i>
 								<i class="fab fa-codepen"></i>
 								<i class="fab fa-dropbox"></i>
-								<i class="fab fa-expeditedssl"></i>
-								<i class="fab fa-safari"></i>
-								<i class="fab fa-firefox"></i>
-								<i class="fab fa-chrome"></i>
-								<i class="fab fa-opera"></i>
 								<i class="fas fa-first-aid"></i>
-								<i class="fab fa-get-pocket"></i>
 								<i class="fab fa-jsfiddle"></i>
-								<i class="fab fa-linux"></i>
-								<i class="fab fa-npm"></i>
-								<i class="fab fa-node-js"></i>
-								<i class="fab fa-react"></i>
-								<i class="fab fa-reddit-alien"></i>
-								<i class="fab fa-stack-overflow"></i>
 								<i class="fas fa-search"></i>
-								<i class="fab fa-cpanel"></i>
-								<i class="fab fa-google"></i>
-								<i class="fab fa-google-drive"></i>
+								<i class="fab fa-stack-overflow"></i>
 								<i class="fas fa-database"></i>
 								<i class="fas fa-file-excel"></i>
 								<i class="fas fa-file-powerpoint"></i>
 								<i class="fas fa-file-word"></i>
 								<i class="fas fa-film"></i>
-								<i class="fas fa-flask"></i>
 								<i class="fas fa-key"></i>
+								<i class="fab fa-expeditedssl"></i>
+								<i class="fab fa-git-square"></i>
+								<i class="fab fa-safari"></i>
+								<i class="fab fa-firefox"></i>
+								<i class="fab fa-chrome"></i>
+								<i class="fab fa-reddit-alien"></i>
+								<i class="fab fa-google"></i>
+								<i class="fab fa-google-drive"></i>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p>Things I've played with:</p>
+								<i class="fab fa-angular"></i>
+								<i class="fas fa-code-branch"></i>
+								<i class="fab fa-opera"></i>
+								<i class="fab fa-get-pocket"></i>
+								<i class="fab fa-linux"></i>
+								<i class="fab fa-npm"></i>
+								<i class="fab fa-node-js"></i>
+								<i class="fab fa-react"></i>
+								<i class="fab fa-cpanel"></i>
 								<i class="fab fa-less"></i>
+								<i class="fab fa-sass"></i>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p>Other Stuff</p>
 								<i class="fas fa-magic"></i>
 								<i class="fab fa-meetup"></i>
 								<i class="fas fa-stopwatch"></i>
 								<i class="fas fa-wrench"></i>
-								<i class="fab fa-sass"></i>
+
 							</div>
 						</div>
 						</div>
@@ -183,12 +194,12 @@
 			</div>
 
 		<!--		Links/Navigation-->
-
 				<nav class="navbar fixed-bottom navbar-dark justify-content-center">
 					<a class="navbar-item console-color p-2" target="_blank" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
 					<a class="navbar-item console-color p-2" target="_blank" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
 					<a class="navbar-item console-color p-2" target="_blank" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
 				</nav>
+
 
 	</body>
 </html>

@@ -7,18 +7,13 @@ function newTypewriter() {
 
 function goAgain() {
 	var typeWriter = new TypeWriter('#typeWriter',[
-		'Who Is Ken?',
-		'Sometimes, my words escape me and I find that others have said it better. Here is a favorite quote of mine:',
-		'<i class="fas fa-quote-left"></i><em id="quote">Here\'s to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently -- they\'re not fond of rules... You can quote them, disagree with them, glorify or vilify them, but the only thing you can\'t do is ignore them because they change things... they push the human race forward, and while some may see them as the crazy ones, we see genius, because the ones who are crazy enough to think that they can change the world, are the ones who do. -Steve Jobs</em><i class="fas fa-quote-right"></i>',
-		'I am a <em id="creative">creative</em> individual that embraces critical thinking and making mistakes.',
-		'I am always willing to try something new and I am adept at connecting relevant previous experiences with current challenges.',
-		'I have an incredible desire to understand the world around me, which is demonstrated by my diverse background ranging from <em id="interests">rock climbing</em> to <em id="interests1">programming</em>.',
-		'Of course I will always love to work with my hands, but my spacial and mechanical mind have proved to be valuable in my foray into web development.',
-		'Recently, I have been learning <em id="webSkillz">new languages and frameworks</em>.',
-		'With these skills I will one day change the world, but today you can see them in action in my <em id="projects">projects on my gitHub</em>.',
-		'I am always looking for opportunities for new challenges and experiences, check out some of my other proficiencies and reach out if you would like to know more.',
-		'<em id="signOff">Thank you,</em>',
-		'<em id="name">Ken</em>',
+		'It’s hard for me to capture the breadth of knowledge and experience that I’ve acquired, so I’ve made a game out of introducing the various aspects of myself.',
+		'Click to ',
+		'I am a critical thinker.',
+		'I am a problem solver.',
+		'I am a developer.',
+		'I am a polymath.',
+		'',
 		'',
 		'<input type="button" class="btn btn-lg" id="generate" onclick="generate()" value="See More!"></input>'
 	]);

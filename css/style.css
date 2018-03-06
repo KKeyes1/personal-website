@@ -1,3 +1,12 @@
+html {
+	position: relative;
+	height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
 body {
 	font-family: 'Open Sans', courier;
 	color: #33d011;
@@ -15,9 +24,8 @@ body {
 
 .container {
 	border: solid 2px limegreen;
-	height: 85vh;
+	height: 90%;
 	overflow: auto;
-	display: block;
 }
 
 #madLib span {
@@ -58,12 +66,13 @@ em {
 	border-color: limegreen limegreen;
 }
 
-nav.navbar {
+#consoleNav {
 	padding: 0;
 	border-bottom: solid 1px limegreen;
 }
 
 .navbar {
+	margin: auto;
 	background-color: transparent;
 }
 
