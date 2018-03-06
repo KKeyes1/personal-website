@@ -35,7 +35,7 @@ em {
 }
 
 .nav-tabs {
-	border-bottom: solid 1px limegreen;
+	border-bottom: none;
  }
 
 .nav-link {
@@ -56,6 +56,11 @@ em {
 	color: limegreen;
 	background-color: transparent;
 	border-color: limegreen limegreen;
+}
+
+nav.navbar {
+	padding: 0;
+	border-bottom: solid 1px limegreen;
 }
 
 .navbar {

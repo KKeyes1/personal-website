@@ -9,7 +9,7 @@ function goAgain() {
 	var typeWriter = new TypeWriter('#typeWriter',[
 		'Who Is Ken?',
 		'Sometimes, my words escape me and I find that others have said it better. Here is a favorite quote of mine:',
-		'<em id="quote"></em>',
+		'<i class="fas fa-quote-left"></i><em id="quote">Here\'s to the crazy ones, the misfits, the rebels, the troublemakers, the round pegs in the square holes... the ones who see things differently -- they\'re not fond of rules... You can quote them, disagree with them, glorify or vilify them, but the only thing you can\'t do is ignore them because they change things... they push the human race forward, and while some may see them as the crazy ones, we see genius, because the ones who are crazy enough to think that they can change the world, are the ones who do. -Steve Jobs</em><i class="fas fa-quote-right"></i>',
 		'I am a <em id="creative">creative</em> individual that embraces critical thinking and making mistakes.',
 		'I am always willing to try something new and I am adept at connecting relevant previous experiences with current challenges.',
 		'I have an incredible desire to understand the world around me, which is demonstrated by my diverse background ranging from <em id="interests">rock climbing</em> to <em id="interests1">programming</em>.',

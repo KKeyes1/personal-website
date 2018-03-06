@@ -19,3 +19,8 @@
 
 		typeWriter.start();
 	});
+
+
+	window.setTimeout(function() {
+
+	}, 1000);

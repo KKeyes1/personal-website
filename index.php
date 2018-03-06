@@ -67,17 +67,20 @@
 	<body>
 		<div class="jumbotron rounded-0">
 			<div class="container py-3">
-				<ul class="nav nav-tabs" role="tablist">
-					<li class="nav-item">
-						<a class="nav-link active" href="#main" role="tab" data-toggle="tab">Main</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact" role="tab" data-toggle="tab">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#proficiencies" role="tab" data-toggle="tab">Proficiencies</a>
-					</li>
-				</ul>
+				<nav class="navbar">
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" href="#main" role="tab" data-toggle="tab">Main</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact" role="tab" data-toggle="tab">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#proficiencies" role="tab" data-toggle="tab">Proficiencies</a>
+						</li>
+					</ul>
+					<a class="navbar-brand">Who Is Ken</a>
+				</nav>
 
 
 				<div class="tab-content">
@@ -145,6 +148,7 @@
 								<i class="fab fa-safari"></i>
 								<i class="fab fa-firefox"></i>
 								<i class="fab fa-chrome"></i>
+								<i class="fab fa-opera"></i>
 								<i class="fas fa-first-aid"></i>
 								<i class="fab fa-get-pocket"></i>
 								<i class="fab fa-jsfiddle"></i>
@@ -158,6 +162,19 @@
 								<i class="fab fa-cpanel"></i>
 								<i class="fab fa-google"></i>
 								<i class="fab fa-google-drive"></i>
+								<i class="fas fa-database"></i>
+								<i class="fas fa-file-excel"></i>
+								<i class="fas fa-file-powerpoint"></i>
+								<i class="fas fa-file-word"></i>
+								<i class="fas fa-film"></i>
+								<i class="fas fa-flask"></i>
+								<i class="fas fa-key"></i>
+								<i class="fab fa-less"></i>
+								<i class="fas fa-magic"></i>
+								<i class="fab fa-meetup"></i>
+								<i class="fas fa-stopwatch"></i>
+								<i class="fas fa-wrench"></i>
+								<i class="fab fa-sass"></i>
 							</div>
 						</div>
 						</div>
