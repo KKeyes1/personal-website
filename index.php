@@ -60,7 +60,9 @@
 		<script
 			src="js/typeWriter.js"></script>
 		<script
-			src="js/about-me.js"></script>
+			src="js/main-typewriter.js"></script>
+		<script
+			src="js/madlib-typewriter.js"></script>
 	</head>
 	<body>
 		<div class="jumbotron rounded-0">
@@ -80,10 +82,7 @@
 
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="main">
-						<div id="testDiv">
 							<section id="typeWriter"></section>
-							<input type="button" class="btn btn-lg border" id="generate" onclick="generate()" value="Learn More"></input>
-						</div>
 					</div>
 					<div role="tabpanel" class="tab-pane pt-3" id="contact">
 						<form class="form-horizontal" role="form" method="post" action="php/mailer.php" id="contactForm">
@@ -131,24 +130,48 @@
 						<div id="success-output-area"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="proficiencies">
+						<div class="row">
+							<div class="col">
+								<i class="fab fa-css3-alt"></i>
+								<i class="fab fa-html5"></i>
+								<i class="fab fa-js"></i>
+								<i class="fab fa-angular"></i>
+								<i class="fab fa-git-square"></i>
+								<i class="fas fa-code-branch"></i>
+								<i class="fab fa-php"></i>
+								<i class="fab fa-codepen"></i>
+								<i class="fab fa-dropbox"></i>
+								<i class="fab fa-expeditedssl"></i>
+								<i class="fab fa-safari"></i>
+								<i class="fab fa-firefox"></i>
+								<i class="fab fa-chrome"></i>
+								<i class="fas fa-first-aid"></i>
+								<i class="fab fa-get-pocket"></i>
+								<i class="fab fa-jsfiddle"></i>
+								<i class="fab fa-linux"></i>
+								<i class="fab fa-npm"></i>
+								<i class="fab fa-node-js"></i>
+								<i class="fab fa-react"></i>
+								<i class="fab fa-reddit-alien"></i>
+								<i class="fab fa-stack-overflow"></i>
+								<i class="fas fa-search"></i>
+								<i class="fab fa-cpanel"></i>
+								<i class="fab fa-google"></i>
+								<i class="fab fa-google-drive"></i>
+							</div>
+						</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--		Links/Navigation-->
-			<nav class="navbar fixed-bottom navbar-dark justify-content-center">
-				<a class="navbar-item console-color p-2" target="_blank" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
-				<a class="navbar-item console-color p-2" target="_blank" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
-				<a class="navbar-item console-color p-2" target="_blank" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
-			</nav>
-		</div>
 
-		<script type="text/javascript">
-			$(function() {
-				var typeWriter = new TypeWriter('#typeWriter');
+		<!--		Links/Navigation-->
 
-				typeWriter.start();
-			});
-		</script>
+				<nav class="navbar fixed-bottom navbar-dark justify-content-center">
+					<a class="navbar-item console-color p-2" target="_blank" href="https://www.instagram.com/_who_is_ken/"><i class="fab fa-instagram fa-3x"></i></a>
+					<a class="navbar-item console-color p-2" target="_blank" href="https://www.linkedin.com/in/ken-keyes/"><i class="fab fa-linkedin fa-3x"></i></a>
+					<a class="navbar-item console-color p-2" target="_blank" href="https://github.com/KKeyes1"><i class="fab fa-github-square fa-3x"></i></a>
+				</nav>
+
 	</body>
 </html>

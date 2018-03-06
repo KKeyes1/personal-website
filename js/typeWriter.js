@@ -3,23 +3,10 @@
 /* See README.md for more informations about the TypeWriter Object */
 /*******************************************************************/
 
-function TypeWriter(elmt) {
+function TypeWriter(elmt, linesToDisplay) {
 	this.elmt = elmt;
 	this.selector = $(elmt);
-	this.linesToDisplay = [
-		'Who Is Ken?',
-		'',
-		'I am a critical thinker,',
-		'Always asking questions in order to understand things inside and out.',
-		'I am an artist,',
-		'Always striving to see beauty in all things.',
-		'I am a student,',
-		'Always seeking out new information and experiences.',
-		'I am a teacher,',
-		'Always looking to share my thoughts.',
-		'',
-		'I am Ken.'
-	];
+	this.linesToDisplay = linesToDisplay;
 	this.firstDelay = 2000;
 	this.typingDelay = 70;
 	this.afterLineDelay = 1000;
@@ -84,13 +71,6 @@ TypeWriter.prototype.start = function() {
 	});
 
 	// $(window).on('TypeWriter:finished', function() {
-	// 	$(window).on('keypress', function(e) {
-	// 		if (e.keyCode == 13) {
-	// 			$(that.elmt).append("<span id='init'>" + that.endText);
-	// 			setTimeout(function() {
-	// 				$(that.elmt).fadeOut("slow");
-	// 			}, that.endTimeOut);
-	// 		}
-	// 	});
+	// 	$('#generate').show();
 	// });
 };
