@@ -1,12 +1,3 @@
-html {
-	position: relative;
-	height: 100%;
-}
-body {
-	/* Margin bottom by footer height */
-	margin-bottom: 60px;
-}
-
 body {
 	font-family: 'Open Sans', courier;
 	color: #33d011;
@@ -24,7 +15,7 @@ body {
 
 .container {
 	border: solid 2px limegreen;
-	height: 90%;
+	height: 100%;
 	overflow: auto;
 }
 
@@ -73,6 +64,7 @@ em {
 
 .navbar {
 	margin: auto;
+	padding: 0;
 	background-color: transparent;
 }
 
