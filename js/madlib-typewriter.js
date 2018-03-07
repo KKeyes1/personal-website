@@ -7,15 +7,25 @@ function newTypewriter() {
 
 function goAgain() {
 	var typeWriter = new TypeWriter('#typeWriter',[
-		'It’s hard for me to capture the breadth of knowledge and experience that I’ve acquired, so I’ve made a game out of introducing the various aspects of myself.',
-		'Click to ',
+		// 'I often struggle to describe myself, so I made this page to help.',
+		// 'Let me tell you about what excites me.',
+		// 'After, you can click to generate new information and see what else you can learn more.',
+		// '',
+		'I am a <em id="polymath">polymath.</em>',
+		'I love learning. From <em id="interests"></em> to <em id="interests1"></em>, I am always willing to try new things.',
+		'I also love sharing what I have learned with others, teaching is the most profound learning experience.',
+		'',
+		'I love facing new problems.',
+		'I love the the process of breaking down an insurmountable obstacle until the path to overcome it becomes clear.',
+		'I love iterating through solutions rapidly, failing fast and often, in order to arrive at my best solution.',
 		'I am a critical thinker.',
-		'I am a problem solver.',
-		'I am a developer.',
-		'I am a polymath.',
+		'I an an outside the box thinker.',
+		'I want to help people.',
+		'I want to change the world.',
+		'I will always be learning.',
 		'',
 		'',
-		'<input type="button" class="btn btn-lg" id="generate" onclick="generate()" value="See More!"></input>'
+		'<input type="button" class="btn btn-lg button-glow" id="generate" onclick="generate()" value="See More!"></input>'
 	]);
 
 	typeWriter.start();
