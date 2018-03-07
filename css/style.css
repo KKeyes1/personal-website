@@ -37,8 +37,8 @@ em {
 	background-color: transparent;
 	font-size: 1em;
 	border: none;
-	color: limegreen;
-	padding: 2px 5px;
+	color: fuchsia;
+	padding: 0;
 	margin: 0;
 }
 
@@ -120,19 +120,19 @@ em {
 	color: limegreen;
 }
 
-@keyframes glowing {
-	0% { box-shadow: 0 0 0 limegreen; }
-	40% { box-shadow: 0 0 30px limegreen; }
-	60% { box-shadow: 0 0 30px limegreen; }
-	100% { box-shadow: 0 0 0 limegreen; }
-	60% { box-shadow: 0 0 30px limegreen; }
-	40% { box-shadow: 0 0 30px limegreen; }
-	0% { box-shadow: 0 0 0 limegreen; }
-}
+/*@keyframes glowing {*/
+	/*0% { box-shadow: 0 0 0 limegreen; }*/
+	/*40% { box-shadow: 0 0 30px limegreen; }*/
+	/*60% { box-shadow: 0 0 30px limegreen; }*/
+	/*100% { box-shadow: 0 0 0 limegreen; }*/
+	/*60% { box-shadow: 0 0 30px limegreen; }*/
+	/*40% { box-shadow: 0 0 30px limegreen; }*/
+	/*0% { box-shadow: 0 0 0 limegreen; }*/
+/*}*/
 
-.button-glow {
-	animation: glowing 1000ms infinite;
-}
+/*.button-glow {*/
+	/*animation: glowing 1000ms infinite;*/
+/*}*/
 
 #typeWriter {
 	width: 100%;
@@ -156,6 +156,7 @@ em {
 #typeWriter #init::after { display: none; }
 
 #typeWriter span.typewriter-item::before {
+	color: fuchsia;
 	content: '>';
 	display: inline-block;
 	margin-right: 10px;

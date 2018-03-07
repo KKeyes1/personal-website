@@ -131,73 +131,55 @@
 					</div>
 					<div role="tabpanel" class="tab-pane" id="proficiencies">
 						<div class="row">
-							<div class="col">
-								<i class="fab fa-css3-alt"></i>
-								<i class="fab fa-html5"></i>
-								<i class="fab fa-js"></i>
-								<i class="fab fa-php"></i>
-								<i class="fas fa-database"></i>
-								<i class="fab fa-git-square"></i>
-								<i class="fab fa-angular"></i>
-								<i class="fab fa-linux"></i>
-								<i class="fab fa-npm"></i>
-								<i class="fab fa-node-js"></i>
-								<i class="fab fa-cpanel"></i>
-							</div>
-						</div>
-						<div class="row">
-								<i class="fab fa-codepen"></i>
-								<i class="fab fa-jsfiddle"></i>
-						</div>
-						<div class="row">
-								<i class="fab fa-dropbox"></i>
-						</div>
-						<div class="row">
-								<i class="fas fa-first-aid"></i>
-						</div>
-						<div class="row">
-								<i class="fas fa-search"></i>
-								<i class="fab fa-stack-overflow"></i>
-						</div>
-						<div class="row">
-								<i class="fas fa-file-excel"></i>
-								<i class="fas fa-file-powerpoint"></i>
-								<i class="fas fa-file-word"></i>
-						</div>
-						<div class="row">
-								<i class="fas fa-film"></i>
-								<i class="fas fa-key"></i>
-								<i class="fab fa-expeditedssl"></i>
-						</div>
-						<div class="row">
-								<i class="fab fa-safari"></i>
-								<i class="fab fa-firefox"></i>
-								<i class="fab fa-chrome"></i>
-								<i class="fab fa-opera"></i>
-						</div>
-						<div class="row">
-								<i class="fab fa-reddit-alien"></i>
-								<i class="fab fa-google"></i>
-								<i class="fab fa-google-drive"></i>
-						</div>
-						<div class="row">
-								<i class="fas fa-code-branch"></i>
-								<i class="fab fa-get-pocket"></i>
-						</div>
-						<div class="row">
+							<i class="fab fa-css3-alt"></i>
+							<i class="fab fa-html5"></i>
+							<i class="fab fa-js"></i>
+							<i class="fab fa-php"></i>
+							<i class="fas fa-database"></i>
+							<i class="fab fa-git-square"></i>
+							<i class="fab fa-angular"></i>
+							<i class="fab fa-linux"></i>
+							<i class="fab fa-npm"></i>
+							<i class="fab fa-node-js"></i>
+							<i class="fab fa-cpanel"></i>
+							<i class="fab fa-wordpress"></i>
+							<i class="fab fa-aws"></i>
+							<i class="fas fa-terminal"></i>
+							<i class="fab fa-apple"></i>
 							<i class="fab fa-react"></i>
+							<i class="fab fa-less"></i>
+							<i class="fab fa-sass"></i>
 						</div>
 						<div class="row">
-								<i class="fab fa-less"></i>
-								<i class="fab fa-sass"></i>
+							<i class="fab fa-codepen"></i>
+							<i class="fab fa-jsfiddle"></i>
+							<i class="fab fa-stack-overflow"></i>
+							<i class="fab fa-reddit-alien"></i>
 						</div>
 						<div class="row">
-								<i class="fas fa-magic"></i>
-								<i class="fab fa-meetup"></i>
-								<i class="fas fa-stopwatch"></i>
-								<i class="fas fa-wrench"></i>
+							<i class="fab fa-safari"></i>
+							<i class="fab fa-firefox"></i>
+							<i class="fab fa-chrome"></i>
+							<i class="fab fa-opera"></i>
 						</div>
+						<div class="row">
+							<i class="fas fa-file-excel"></i>
+							<i class="fas fa-file-powerpoint"></i>
+							<i class="fas fa-file-word"></i>
 						</div>
+						<div class="row">
+
+						</div>
+						<i class="fas fa-search"></i>
+						<i class="fas fa-film"></i>
+						<i class="fab fa-google"></i>
+						<i class="fas fa-code-branch"></i>
+						<i class="fab fa-get-pocket"></i>
+						<i class="fab fa-meetup"></i>
+						<i class="fas fa-first-aid"></i>
+						<i class="fas fa-stopwatch"></i>
+						<i class="fas fa-wrench"></i>
+						<i class="far fa-lemon"></i>
 					</div>
 				</div>
 			</div>
