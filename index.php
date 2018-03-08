@@ -130,56 +130,86 @@
 						<div id="success-output-area"></div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="proficiencies">
-						<div class="row">
-							<i class="fab fa-css3-alt"></i>
-							<i class="fab fa-html5"></i>
-							<i class="fab fa-js"></i>
-							<i class="fab fa-php"></i>
-							<i class="fas fa-database"></i>
-							<i class="fab fa-git-square"></i>
-							<i class="fab fa-angular"></i>
-							<i class="fab fa-linux"></i>
-							<i class="fab fa-npm"></i>
-							<i class="fab fa-node-js"></i>
-							<i class="fab fa-cpanel"></i>
-							<i class="fab fa-wordpress"></i>
-							<i class="fab fa-aws"></i>
-							<i class="fas fa-terminal"></i>
-							<i class="fab fa-apple"></i>
-							<i class="fab fa-react"></i>
-							<i class="fab fa-less"></i>
-							<i class="fab fa-sass"></i>
+						<p class="m-5">Hover over each row.</p>
+						<div class="row my-5 mx-auto text-center" id="top-languages" title="Languages I have spent the most time with.">
+							<div class="col">
+								<i class="fab fa-html5 fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-css3-alt fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-js fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-angular fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-php fa-3x"></i>
+							</div>
 						</div>
-						<div class="row">
-							<i class="fab fa-codepen"></i>
-							<i class="fab fa-jsfiddle"></i>
-							<i class="fab fa-stack-overflow"></i>
-							<i class="fab fa-reddit-alien"></i>
+						<div class="row my-5 mx-auto text-center" id="browsers" title="Browsers I have installed.">
+							<div class="col">
+								<i class="fab fa-chrome fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-firefox fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-safari fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-opera fa-3x"></i>
+							</div>
 						</div>
-						<div class="row">
-							<i class="fab fa-safari"></i>
-							<i class="fab fa-firefox"></i>
-							<i class="fab fa-chrome"></i>
-							<i class="fab fa-opera"></i>
+						<div class="row my-5 mx-auto text-center" id="five-more" title="Still learning!">
+							<div class="col">
+								<i class="fab fa-node-js fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-npm fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fas fa-database fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-linux fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-wordpress fa-3x"></i>
+							</div>
 						</div>
-						<div class="row">
-							<i class="fas fa-file-excel"></i>
-							<i class="fas fa-file-powerpoint"></i>
-							<i class="fas fa-file-word"></i>
+						<div class="row my-5 mx-auto text-center" id="online-resources" title="Some of my favorite online resources!">
+							<div class="col">
+								<i class="fab fa-reddit-alien fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-stack-overflow fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-codepen fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fab fa-jsfiddle fa-3x"></i>
+							</div>
 						</div>
-						<div class="row">
-
+						<div class="row my-5 mx-auto text-center" id="security-design" title="Physical security and design are some of my favorite places to play, also.">
+							<div class="col">
+								<i class="fab fa-keycdn fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fas fa-user-secret fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fas fa-pencil-alt fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fas fa-file fa-3x"></i>
+							</div>
+							<div class="col">
+								<i class="fas fa-users fa-3x"></i>
+							</div>
 						</div>
-						<i class="fas fa-search"></i>
-						<i class="fas fa-film"></i>
-						<i class="fab fa-google"></i>
-						<i class="fas fa-code-branch"></i>
-						<i class="fab fa-get-pocket"></i>
-						<i class="fab fa-meetup"></i>
-						<i class="fas fa-first-aid"></i>
-						<i class="fas fa-stopwatch"></i>
-						<i class="fas fa-wrench"></i>
-						<i class="far fa-lemon"></i>
 					</div>
 				</div>
 			</div>
