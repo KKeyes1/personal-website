@@ -1,10 +1,19 @@
-@media only screen and (max-width: 575px) {
-
-}
-
 body {
 	font-family: 'Open Sans', courier;
 	color: limegreen;
+}
+
+.tab-pane {
+	height: 100%;
+}
+
+.tab-content {
+	height: 100%;
+}
+
+#scroll {
+	height: 100%;
+	overflow: auto;
 }
 
 .console-color {

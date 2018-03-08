@@ -61,7 +61,7 @@
 		<script
 			src="js/madlib-typewriter.js"></script>
 	</head>
-	<body>
+	<body onLoad="scrollDiv_init()">
 		<div class="jumbotron rounded-0">
 			<div class="container py-3" id="container">
 				<nav class="navbar" id="consoleNav">
@@ -82,7 +82,9 @@
 
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="main">
-							<section id="typeWriter"></section>
+						<div id="scroll">
+							<section id="typeWriter" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()"></section>
+						</div>
 					</div>
 					<div role="tabpanel" class="tab-pane pt-3" id="contact">
 						<form class="form-horizontal" role="form" method="post" action="php/mailer.php" id="contactForm">

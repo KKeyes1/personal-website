@@ -7,8 +7,8 @@ function TypeWriter(elmt, linesToDisplay) {
 	this.elmt = elmt;
 	this.selector = $(elmt);
 	this.linesToDisplay = linesToDisplay;
-	this.firstDelay = 10;
-	this.typingDelay = 10;
+	this.firstDelay = 0;
+	this.typingDelay = 50;
 	this.afterLineDelay = 10;
 	// this.endTimeOut = 2000;
 	// this.endText = "Fake loading on progress...";
