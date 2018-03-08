@@ -83,7 +83,7 @@
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="main">
 						<div id="scroll">
-							<section id="typeWriter" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()"></section>
+							<section id="typeWriter"></section>
 						</div>
 					</div>
 					<div role="tabpanel" class="tab-pane pt-3" id="contact">
